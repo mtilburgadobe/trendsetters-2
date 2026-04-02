@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-contact",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-04-02T02:52:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/faq",
+    "originPage": "FAQ page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "contact",
+    "imagePattern": "noimg",
+    "structure": "heading + paragraph + contact details"
+  },
+  "contentPattern": {
+    "structure": "2-column layout with text and contact info",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "contact pages",
+      "about pages with contact info",
+      "support pages"
+    ],
+    "notSuitableFor": [
+      "image-heavy columns",
+      "product comparison layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/faq"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-02T02:52:00.000Z"
+  }
+}

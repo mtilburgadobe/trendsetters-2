@@ -1,0 +1,40 @@
+{
+  "variantName": "hero-faq",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-04-02T02:52:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/faq",
+    "originPage": "FAQ page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "faq-hero",
+    "imagePattern": "large",
+    "structure": "heading + subheading + paragraph + image"
+  },
+  "contentPattern": {
+    "structure": "heading + subheading + paragraph + image",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "FAQ pages",
+      "support/help pages",
+      "information pages with side images"
+    ],
+    "notSuitableFor": [
+      "product landing pages",
+      "pages requiring background images",
+      "CTA-heavy hero sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/faq"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-02T02:52:00.000Z"
+  }
+}

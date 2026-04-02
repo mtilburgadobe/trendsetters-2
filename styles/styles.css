@@ -318,8 +318,16 @@ main > .section:first-of-type {
 
 /* section metadata */
 main .section.light,
-main .section.highlight {
+main .section.highlight,
+main .section.grey {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+main .section.accent {
+  background-color: #e8ff5a;
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
 }

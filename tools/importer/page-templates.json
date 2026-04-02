@@ -1,0 +1,75 @@
+{
+  "templates": [
+    {
+      "name": "faq-page",
+      "urls": [
+        "https://www.wknd-trendsetters.site/faq"
+      ],
+      "description": "FAQ page with frequently asked questions and answers",
+      "blocks": [
+        {
+          "name": "hero-faq",
+          "instances": [
+            "header.section.secondary-section"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            ".faq-list"
+          ]
+        },
+        {
+          "name": "columns-contact",
+          "instances": [
+            "section.section.secondary-section .grid-layout"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero",
+          "name": "Hero Section",
+          "selector": "header.section.secondary-section",
+          "style": "grey",
+          "blocks": [
+            "hero-faq"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-faq",
+          "name": "FAQ Accordion Section",
+          "selector": "section.section:not(.secondary-section):not(.accent-section)",
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3-contact",
+          "name": "Contact Section",
+          "selector": "main > section.section.secondary-section",
+          "style": "grey",
+          "blocks": [
+            "columns-contact"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4-cta",
+          "name": "CTA Section",
+          "selector": "section.section.accent-section",
+          "style": "accent",
+          "blocks": [],
+          "defaultContent": [
+            "section.section.accent-section h2",
+            "section.section.accent-section p",
+            "section.section.accent-section a.button"
+          ]
+        }
+      ]
+    }
+  ]
+}
