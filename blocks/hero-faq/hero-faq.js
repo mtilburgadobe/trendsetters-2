@@ -1,5 +1,7 @@
 export default function decorate(block) {
-  if (!block.querySelector(':scope > div:first-child picture')) {
-    block.classList.add('no-image');
+  const rows = [...block.children];
+  if (rows.length >= 2) {
+    rows[0].classList.add('hero-faq-image');
+    rows[1].classList.add('hero-faq-content');
   }
 }
