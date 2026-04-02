@@ -20,9 +20,17 @@
 }
 
 .hero-faq .hero-faq-content h1 {
-  font-size: var(--heading-font-size-xl, 2.5rem);
-  line-height: 1.1;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.05;
+  text-transform: uppercase;
   margin: 0 0 16px;
+}
+
+@media (width >= 900px) {
+  .hero-faq .hero-faq-content h1 {
+    font-size: 4.5rem;
+  }
 }
 
 .hero-faq .hero-faq-content p {
